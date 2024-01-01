@@ -125,11 +125,8 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  	  	  //crr();
+	  	  	 
 
-	  	  	  h1=HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_6);
-			  h2=HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_7);
-			  h3=HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_8);
 
 			  for(int i=0;i<=6;i++){
 				  step(i);
