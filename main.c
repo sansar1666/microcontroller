@@ -37,8 +37,8 @@ void crr(void);
 
 /* Private macro -------------------------------------------------------------*/
 /* USER CODE BEGIN PM */
-#define duty 1/1000
-#define t 3000
+
+#define t 4500
 #define tt 2500
 int h1,h2,h3;
 
